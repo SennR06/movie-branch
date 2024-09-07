@@ -1,7 +1,7 @@
 :root{
     --black: #0c0c0c;
     --white: #f2f2f2;
-    --accent-red: #d60000;
+    --accent-green: #00b818;
 }
 
 html, body{
@@ -23,7 +23,7 @@ header{
     padding: 1em 2em;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 0 25px var(--accent-red);
+    box-shadow: 0 0 25px var(--accent-green);
     z-index: 2;
     flex-shrink: 0;
 }
@@ -35,7 +35,7 @@ header h1{
     transition: color .3s ease;
 }
 header h1:hover{
-    color: var(--accent-red);
+    color: var(--accent-green);
 }
 header img{
     height: 3em;
